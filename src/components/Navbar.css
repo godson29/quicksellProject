@@ -1,0 +1,95 @@
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px 12px;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+  
+  .dropbtn .icon {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+  }
+  
+  .dropbtn img {
+    width: 12px;
+    height: 12px;
+    margin-left: 8px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 12px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    min-width: 180px;
+  }
+  
+  .dropdown-option {
+    margin-bottom: 12px;
+  }
+  
+  .option-btn {
+    background-color: transparent;
+    border: none;
+    color: black;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .nested-dropdown {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .nested-dropdown a {
+    display: block;
+    color: black;
+    padding: 8px 0;
+    text-decoration: none;
+  }
+  
+  .nested-dropdown a:hover {
+    background-color: #f0f0f0;
+  }
+
+  .sub-button,
+  .sub-button1 {
+    background-color: white;
+    border: 1px solid grey;
+    color: black;
+    font-size: 14px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .sub-button:hover,
+  .sub-button1:hover {
+    background-color: #f0f0f0;
+    border-color: darkgrey;
+  }
+  

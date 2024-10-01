@@ -1,0 +1,73 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  position: relative; /* Ensure position relative for absolute positioning of avatar */
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card-id {
+  font-size: 1.2em;  /* Set to the same size as card-title */
+  color: #888;
+  margin-bottom: 4px;  /* Add some spacing between the ID and title */
+}
+
+.priority-icon {
+  width: 20px;
+  height: 20px;
+}
+
+.user-avatar {
+  position: absolute; /* Positioning avatar absolutely */
+  top: 16px; /* Adjust based on your layout */
+  right: 16px; /* Align to right corner */
+}
+
+.avatar-icon {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.status-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+
+.card-tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  background-color: #e0e0e0;
+  border-radius: 12px;
+  margin-right: 5px;
+}
